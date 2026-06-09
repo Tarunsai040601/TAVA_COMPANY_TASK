@@ -3,7 +3,7 @@ import axios from "axios";
 import "./Input.css";
 
 const Input = () => {
-  const post_url = "http://localhost:3000/api/chat";
+  const post_url = "https://tava-company-task-2.onrender.com/api/chat";
 
   const [search, setSearch] = useState("");
   const [chatData, setChatData] = useState(null);
